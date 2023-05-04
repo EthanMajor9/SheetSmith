@@ -1,3 +1,26 @@
 .not-visible {
     display: none;
 }
+
+.login-btns:hover {
+    border: 1.5px solid grey;
+}
+
+body {
+    background-image: url(background-placeholder.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#profile-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+.login-btns {
+    margin: 0 3px;
+    background-color: #f69a00;
+    border: 1.5px solid grey;
+}
